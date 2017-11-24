@@ -21,3 +21,4 @@ Date.prototype.ms=function(){return this.getTime()}
 Date.prototype.sec=function(){return this.getSeconds()}
 Date.prototype.min=function(){return this.getMinutes()}
 Date.prototype.hours=function(){return this.getHours()}
+Array.prototype.last=function(){return this[this.length-1]}
